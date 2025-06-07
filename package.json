@@ -20,13 +20,13 @@
     "name": "Aaron Santos",
     "email": "your.email@example.com"
   },
-  "homepage": "https://github.com/username/g-shorts#readme",
+  "homepage": "https://github.com/afsaints0987/g-shorts#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/username/g-shorts.git"
+    "url": "git+https://github.com/afsaints0987/g-shorts.git"
   },
   "bugs": {
-    "url": "https://github.com/username/g-shorts/issues"
+    "url": "https://github.com/afsaints0987/g-shorts/issues"
   },
   "type": "commonjs",
   "main": "index.js",
