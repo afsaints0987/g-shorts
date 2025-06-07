@@ -1,0 +1,53 @@
+{
+  "name": "g-shorts",
+  "version": "1.0.0",
+  "description": "A CLI tool that simplifies Git commands with intuitive shortcuts",
+  "bin": {
+    "g": "./index.js"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "shortcut",
+    "developer-tool",
+    "command-line",
+    "git-shortcuts",
+    "productivity",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Aaron Santos",
+    "email": "your.email@example.com"
+  },
+  "homepage": "https://github.com/username/g-shorts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/g-shorts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/g-shorts/issues"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "echo 'Preparing package for publication'",
+    "postinstall": "echo 'g-shorts installed successfully! Use g help to get started'"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}
