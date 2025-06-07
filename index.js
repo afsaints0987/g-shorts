@@ -197,99 +197,99 @@ if (!cmd || cmd === "help") {
 Git CLI Shortcuts - Complete Git Command Tool
 
 SETUP & CONFIG:
-  git init [dir]           # git init [directory]
-  git clone <url>          # git clone <url>
-  git name "<name>"        # git config --global user.name
-  git email "<email>"      # git config --global user.email
-  git color                # git config --global color.ui auto
-  git config               # git config --global --edit
+  g init [dir]           # git init [directory]
+  g clone <url>          # git clone <url>
+  g name "<name>"        # git config --global user.name
+  g email "<email>"      # git config --global user.email
+  g color                # git config --global color.ui auto
+  g config               # git config --global --edit
 
 BASIC OPERATIONS:
-  git status | st          # git status
-  git add [file]           # git add [file] (default: add all)
-  git commit "<msg>" | ci  # git commit -m "message"
-  git amend                # git commit --amend
+  g status | st          # git status
+  g add [file]           # git add [file] (default: add all)
+  g commit "<msg>" | ci  # git commit -m "message"
+  g amend                # git commit --amend
 
 STAGE & SNAPSHOT:
-  git reset [file]         # git reset [file]
-  git soft [commit]        # git reset --soft [commit] 
-  git hard [commit]        # git reset --hard [commit]
-  git diff                 # git diff
-  git diffstaged           # git diff --staged
-  git diffcached           # git diff --cached
-  git diffhead             # git diff HEAD
-  git unstage [file]       # git reset [file]
+  g reset [file]         # git reset [file]
+  g soft [commit]        # git reset --soft [commit] 
+  g hard [commit]        # git reset --hard [commit]
+  g diff                 # git diff
+  g diffstaged           # git diff --staged
+  g diffcached           # git diff --cached
+  g diffhead             # git diff HEAD
+  g unstage [file]       # git reset [file]
 
 BRANCHING:
-  git branch | br          # git branch
-  git all                  # git branch -a
-  git remote               # git branch -r
-  git verbose              # git branch -v
-  git merged               # git branch --merged
-  git unmerged             # git branch --no-merged
-  git create <branch>      # git checkout -b <branch>
-  git new <branch>         # git branch <branch>
-  git switch <branch> | co # git checkout <branch>
-  git merge <branch>       # git merge <branch>
-  git del <branch>         # git branch -d <branch>
-  git delf <branch>        # git branch -D <branch>
-  git rename <new>         # git branch -m <new>
-  git current              # git branch --show-current
+  g branch | br          # git branch
+  g all                  # git branch -a
+  g remote               # git branch -r
+  g verbose              # git branch -v
+  g merged               # git branch --merged
+  g unmerged             # git branch --no-merged
+  g create <branch>      # git checkout -b <branch>
+  g new <branch>         # git branch <branch>
+  g switch <branch> | co # git checkout <branch>
+  g merge <branch>       # git merge <branch>
+  g del <branch>         # git branch -d <branch>
+  g delf <branch>        # git branch -D <branch>
+  g rename <new>         # git branch -m <new>
+  g current              # git branch --show-current
 
 REMOTE OPERATIONS:
-  git remote [name] [url]  # git remote add [name] [url]
-  git fetch [remote] [br]  # git fetch [remote] [branch]
-  git pull [remote]        # git pull [remote]
-  git pullrebase [remote]  # git pull --rebase [remote]
-  git push [remote] [br]   # git push [remote] [branch]
-  git pushforce [remote]   # git push --force [remote]
-  git pushall [remote]     # git push --all [remote]
-  git pushtags [remote]    # git push --tags [remote]
-  git pushu <remote> <br>  # git push -u <remote> <branch>
+  g remote [name] [url]  # git remote add [name] [url]
+  g fetch [remote] [br]  # git fetch [remote] [branch]
+  g pull [remote]        # git pull [remote]
+  g pullrebase [remote]  # git pull --rebase [remote]
+  g push [remote] [br]   # git push [remote] [branch]
+  g pushforce [remote]   # git push --force [remote]
+  g pushall [remote]     # git push --all [remote]
+  g pushtags [remote]    # git push --tags [remote]
+  g pushu <remote> <br>  # git push -u <remote> <branch>
 
 HISTORY & INSPECTION:
-  git log                  # git log
-  git oneline              # git log --oneline
-  git graph                # git log --graph --decorate
-  git stat                 # git log --stat
-  git logp                 # git log -p
-  git follow <file>        # git log --follow <file>
-  git author "<author>"    # git log --author="<author>"
-  git loggrep "<pattern>"  # git log --grep="<pattern>"
-  git limit <count>        # git log -<count>
-  git range <s> <u>        # git log <since>..<until>
-  git reflog               # git reflog
-  git show <sha>           # git show <sha>
+  g log                  # git log
+  g oneline              # git log --oneline
+  g graph                # git log --graph --decorate
+  g stat                 # git log --stat
+  g logp                 # git log -p
+  g follow <file>        # git log --follow <file>
+  g author "<author>"    # git log --author="<author>"
+  g loggrep "<pattern>"  # git log --grep="<pattern>"
+  g limit <count>        # git log -<count>
+  g range <s> <u>        # git log <since>..<until>
+  g reflog               # git reflog
+  g show <sha>           # git show <sha>
 
 STASHING:
-  git stash                # git stash
-  git stashlist            # git stash list
-  git stashpop             # git stash pop
-  git stashdrop            # git stash drop
+  g stash                # git stash
+  g stashlist            # git stash list
+  g stashpop             # git stash pop
+  g stashdrop            # git stash drop
 
 REWRITING HISTORY:
-  git rebase <branch>      # git rebase <branch>
-  git rebasei <base>       # git rebase -i <base>
-  git revert <commit>      # git revert <commit>
+  g rebase <branch>      # git rebase <branch>
+  g rebasei <base>       # git rebase -i <base>
+  g revert <commit>      # git revert <commit>
 
 FILE OPERATIONS:
-  git rm <file>            # git rm <file>
-  git mv <old> <new>       # git mv <old> <new>
-  git clean                # git clean -n (dry run)
-  git cleanf               # git clean -f (force)
-  git checkoutfile <file>  # git checkout -- <file>
+  g rm <file>            # git rm <file>
+  g mv <old> <new>       # git mv <old> <new>
+  g clean                # git clean -n (dry run)
+  g cleanf               # git clean -f (force)
+  g checkoutfile <file>  # git checkout -- <file>
 
 TAGGING:
-  git tag                  # git tag
-  git tagcreate <name>     # git tag <name>
-  git taga <name>          # git tag -a <name>
-  git tagdel <name>        # git tag -d <name>
+  g tag                  # git tag
+  g tagcreate <name>     # git tag <name>
+  g taga <name>          # git tag -a <name>
+  g tagdel <name>        # git tag -d <name>
 
 Examples:
-  git create feature-branch    # Create and switch to new branch
-  git commit "Add new feature" # Commit with message
-  git pushu origin main        # Push and set upstream
-  git logoneline               # View commit history
+  g create feature-branch    # Create and switch to new branch
+  g commit "Add new feature" # Commit with message
+  g pushu origin main        # Push and set upstream
+  g logoneline               # View commit history
 `);
   process.exit(0);
 }
